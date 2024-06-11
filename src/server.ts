@@ -4,6 +4,6 @@ const app: FastifyInstance = fastify({logger: true})
 
 app.listen({
     port: 3030
-}, () => console.log("Server is running")
+}, () => console.log("Server is running"),
     
 )
